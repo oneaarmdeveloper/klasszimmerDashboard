@@ -1,0 +1,24 @@
+{
+  "name": "klasszimmerdashboard",
+  "version": "1.0.0",
+  "description": "The Classroom Dashboard is a web-based application designed to streamline classroom management and enhance the learning experience. It features a secure login system, real-time updates via WebSockets, and AI-powered tools to support teaching and student engagement. The backend handles authentication, database operations, and AI processing, while the frontend provides an intuitive dashboard interface for teachers and students. The system uses SQLite for lightweight database management and is built with a modular structure for easy expansion and maintenance.",
+  "main": "Key Features:",
+  "scripts": {
+    "test": "AI functionality for interactive classroom support"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneaarmdeveloper/klasszimmerDashboard.git"
+  },
+  "author": "Lightweight database using SQLite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oneaarmdeveloper/klasszimmerDashboard/issues"
+  },
+  "homepage": "https://github.com/oneaarmdeveloper/klasszimmerDashboard#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}
